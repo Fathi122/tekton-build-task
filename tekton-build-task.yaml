@@ -25,7 +25,7 @@ spec:
   type: image
   params:
     - name: url
-      value: taf122/threadmonitor-docker-img
+      value: taf122/threadmonitor-docker-img:jmx-prom-agent-0.16.1
 ---
 apiVersion: tekton.dev/v1beta1
 kind: Task
